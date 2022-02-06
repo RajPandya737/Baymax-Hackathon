@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#720408">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="20dp"
+        android:text="Baymax"
+        android:fontFamily="cursive"
+        android:textSize="50sp"
+        android:textColor="@color/white"/>
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Talk to Baymax"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/white"
+        android:onClick="BayScreen"/>
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Emotion Assessor"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/white"
+        android:onClick="BayScreen"/>
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="See Baymax"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/white"
+        android:onClick="BayScreen"/>
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Play Games"
+        android:onClick="GameScreen"
+        android:textColor="@color/black"
+        android:backgroundTint="@color/white"
+        />
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Daily Activities"
+        android:textColor="@color/black"
+        android:onClick="activitiesScreen"
+        android:backgroundTint="@color/white"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/bmgif"
+            android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+</LinearLayout>
